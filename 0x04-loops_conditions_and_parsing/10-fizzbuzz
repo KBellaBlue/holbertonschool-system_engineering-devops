@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Display numbers 1 - 100 but replaces multiples of 3 and 5 with fizz and buzz
-for (( i=0; i < 100; i++ ))
+for (( i=0; i < 101; i++ ))
 do
     if [ $((i%15)) = 0 ]
     then
